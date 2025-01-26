@@ -1,0 +1,10 @@
+<section>
+  <h2><%= @user.username.capitalize %>'s Wall</h2>
+  <ul>
+    <% @favorite_beers.each do |beer|  %>
+      <li>
+        <a href="/beers/<%= beer.name.downcase.gsub(" ", "_") %>"><%= beer.name %></a>
+      </li>
+    <% end %>
+  </ul>
+</section>

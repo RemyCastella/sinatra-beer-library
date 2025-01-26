@@ -1,0 +1,50 @@
+:root {
+  --bg-color: #DFD6A7;
+  --accent-color: #F7CE5B;
+  --dark-color: #1F1300;
+}
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  color: var(--dark-color);
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-top: 0.2rem;
+}
+
+a {
+  display: inline-block;
+  color: var(--dark-color);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+nav {
+  padding: 1rem;
+  background-color: var(--bg-color);
+}
+
+section {
+  padding: 1rem 1.5rem;
+}
